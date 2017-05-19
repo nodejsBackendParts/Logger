@@ -1,0 +1,54 @@
+{
+
+  "logLevels": {
+    "debug": {
+      "rank": 100,
+      "color": "cyan",
+      "label": "[DEBUG]"
+    },
+    "info": {
+      "rank": 200,
+      "color": "green",
+      "label": "[INFO]"
+    },
+    "warn": {
+      "rank": 300,
+      "color": "yellow",
+      "label": "[WARN]"
+    },
+    "error": {
+      "rank": 400,
+      "color": "red",
+      "label": "[ERROR]"
+    },
+    "fatal": {
+      "rank": 500,
+      "color": "magenta",
+      "label": "[FATAL]"
+    },
+    "log": {
+      "rank": 999,
+      "color": "default",
+      "label": ""
+    }
+  },
+
+  "defaults": {
+    "logLevel": "info",
+    "prefix": "",
+    "logRecordLayout": ":date :level :prefix :message",
+    "logDateFormat": "yyyy-MM-dd hh:mm:ss.SSS"
+  },
+
+  "colorCodes": {
+    "cyan": 36,
+    "green": 32,
+    "yellow": 33,
+    "red": 31,
+    "magenta":35,
+    "default": 39
+  },
+
+  "newLogEventName": "newLogRecord"
+
+}

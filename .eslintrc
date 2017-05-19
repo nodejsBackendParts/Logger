@@ -1,0 +1,25 @@
+{
+  "env": {
+    "node": true
+  },
+
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+
+  "ecmaFeatures": {
+    "blockBindings": false,
+    "arrowFunctions": true,
+    "defaultParams": true,
+    "classes": true,
+    "templateStrings": true
+  },
+
+  "rules": {
+    "prefer-const": 2,
+    "prefer-arrow-callback": 2,
+    "no-var": 2,
+    "dot-notation": 1,
+    "camelcase": 1
+  }
+}
