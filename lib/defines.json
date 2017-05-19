@@ -35,7 +35,6 @@
 
   "defaults": {
     "logLevel": "info",
-    "prefix": "",
     "logRecordLayout": ":date :level :prefix :message",
     "logDateFormat": "yyyy-MM-dd hh:mm:ss.SSS"
   },
